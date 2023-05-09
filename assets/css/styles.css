@@ -1,3 +1,57 @@
 h1{
-    color: red
+    color: mediumaquamarine;
+    font-family: courier;
+}
+body {
+    background-image: linear-gradient(to bottom, #4a148c, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+p{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: midnightblue
+}   
+
+button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: whitesmoke;
+        color: black;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        font-family: 'Courier New', Courier, monospace;
+        content: "";
+
+}
+.btLink:hover{
+    background: blanchedalmond;
+}
+.form-question{
+    padding: 10px;
+    margin: 50px 10px;
+}
+.form-button{
+    padding: 10px;
+}
+.answer{
+    text-align: right;
+}
+.question{
+    text-align: left;
+}
+.test{
+    width: 500px;
+    margin: auto;
+    text-align: center;
 }
